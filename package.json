@@ -1,6 +1,10 @@
 {
+  "name": "cred",
   "scripts": {
     "build": "rollup -c"
+  },
+  "bin": {
+    "cred": "dist/index.js"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.4",
